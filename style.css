@@ -1,0 +1,32 @@
+/* style.css */
+body {
+    background-color: #e0f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#mail {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #004d40;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004d40;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}

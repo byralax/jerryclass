@@ -1,0 +1,62 @@
+body {
+            margin: 0; /* Remove default margin */
+            height: 100vh; /* Full height of the viewport */
+            background-color: #f0f0f0; /* Light shade of white */
+        }
+        header {
+            background-color: #e0e0e0; /* Slightly darker shade of white */
+            border-radius: 0; /* No rounded corners for full width */
+            width: 100%; /* Full width */
+            padding: 20px 0; /* Increased padding for better appearance */
+        }
+        .content {
+            padding: 20px; /* Padding for content */
+            height: calc(100vh - 120px); /* Full height minus header and footer */
+            overflow-y: auto; /* Allow scrolling if content overflows */
+        }
+        
+        .dropdown {
+            margin: 20px 0;
+        }
+        .dropdown button {
+            background-color: #d0d0d0; /* Even darker shade of white */
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+            border-radius: 5px; /* Rounded corners */
+        }
+        .dropdown-content {
+            display: none;
+            background-color: #ffffff; /* Pure white for dropdown content */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 5px; /* Rounded corners for dropdown content */
+        }
+        .dropdown-content table {
+            width: 100%;
+            border-collapse: collapse; /* Collapse borders for a cleaner look */
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+        .dropdown-content th, .dropdown-content td {
+            padding: 12px; /* Increased padding for better spacing */
+            text-align: center;
+            border: 1px solid #ddd; /* Light border for cells */
+        }
+        .dropdown-content th {
+            background-color: #f2f2f2; /* Light gray background for headers */
+            color: #333; /* Darker text color for contrast */
+        }
+        .dropdown-content tr:hover {
+            background-color: #e0e0e0; /* Light gray background on row hover */
+        }
+        footer {
+            background-color: #e0e0e0; /* Same as header for consistency */
+            border-radius: 0; /* No rounded corners for full width */
+            width: 100%; /* Full width */
+            padding: 10px 0; /* Padding for spacing */
+            font-size: 1.5em; /* Font size */
+        }

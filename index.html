@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ijie byron ITGY 401</title>
+   <!-- <style>
+        
+    </style>-->
+    <script>
+        function toggleDropdown(dropdownId) {
+            var content = document.getElementById(dropdownId);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<link rel="stylesheet" href="stylemain.css">
+<body>
+
+<header>
+    <h1>ijie byron ITGY 401</h1>
+</header>
+
+<div class="content">
+    <!-- Dropdown for Classwork -->
+    <div class="dropdown">
+        <button onclick="toggleDropdown('classworkDropdown')">Show Classwork</button>
+        <div id="classworkDropdown" class="dropdown-content">
+            <table>
+                <tr>
+                    <th colspan="3">Classwork</th>
+                </tr>
+                <tr>
+                    <th>DATE</th>
+                    <th>TITLE</th>
+                    <th>DESCRIPTION</th>
+                </tr>
+                <tr>
+                    <td>17/09/2024</td>
+                    <td>TABLE CREATION</td>
+                    <td>basic table creation</td>
+                </tr>
+                <tr>
+                    <td>24/09/2024</td>
+                    <td><a href="life.html">CLASS EXERCISE 2</a></td>
+                    <td>design a html page that uses a header size of my choice to show a title on the page “life neccesities”
+                        use a simple paragraph tab to describe life in my own understanding
+                        create an ordered list known as most important list of life 
+                        create an unordered list, least important needs of life 
+                        use the glossary list to list 3 of any personal belonging and explain what they mean to me
+                        link the page to the seccond row on  classwork in my index.html script </td>
+                </tr>
+                <tr>
+                    <td>24/09/2024</td>
+                    <td><a href="form.html">TABLE FORM</a></td>
+                    <td>a form in a table webpage, the header is "user registration form" then the first coulmn put "name" "phone" "email" "gender" and add textbox for the user to fill the forms and a drop down for the gender. and on the final row put a submit button</td>
+                </tr>
+                <tr></tr>
+                    <td>29/10/2024</td>
+                    <td><a href="test.js">JAVA SCRIPT</a></td>
+                    <td>basic java script intro</td>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+    <!-- Dropdown for Assignments -->
+    <div class="dropdown">
+        <button onclick="toggleDropdown('assignmentDropdown')">Show Assignments</button>
+        <div id="assignmentDropdown" class="dropdown-content">
+            <table>
+                <tr>
+                    <th colspan="3">Assignments</th>
+                </tr>
+                <tr>
+                    <th>DATE</th>
+                    <th>TITLE</th>
+                    <th>DESCRIPTION</th>
+                </tr>
+                <tr>
+                    <td>08/10/2024</td>
+                    <td><a href="login.html">login page</a></td>
+                    <td>This simple HTML login page provides a user-friendly interface for users to enter their credentials. The page features a clean and minimalistic design, consisting of a form with fields for the username and password. Users can easily input their information and submit the form to log in.  </td>
+                    
+                </tr>
+                <tr>
+                    <td>25/09/2024</td>
+                    <td><a href="cssform.html">CSS SURVEY FORM</a></td>
+                    <td>a survey form in a webpage, the header is "SURVEY FORM" then the first coulmn put "name" "phone" "email" "gender" and add textbox for the user to fill the forms and a drop down for the gender. and on the final row put a submit button</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Dropdown for Quizzes -->
+    <div class="dropdown">
+        <button onclick="toggleDropdown('quizDropdown')">Show Quizzes</button>
+        <div id="quizDropdown" class="dropdown-content">
+            <table>
+                <tr>
+                    <th colspan="3">Quizzes</th>
+                </tr>
+                <tr>
+                    <th>DATE</th>
+                    <th>TITLE</th>
+                    <th>DESCRIPTION</th>
+                </tr>
+                <tr>
+                    <td>22/10/2024</td> <!-- Today's date -->
+                    <td><a href="register.html">Register Page</a></td> <!-- Link to register.html -->
+                    <td>A simple registration page where users can create an account.</td> <!-- Short description -->
+                </tr>
+                <tr>
+                    <td>05/11/2024</td>
+                    <td><a href="MIDSEM.html">personal PAGE</a></td>
+                    <td>static personal webpage</td>
+                </tr>
+                <tr>
+                    <td>05/11/2024</td>
+                    <td><a href="midsem2.html">complaints page</a></td>
+                    <td>basic complaints page</td>
+                </tr>
+                <tr>
+                    <td>05/11/2024</td>
+                    <td><a href="midsem2b.html">three ways of applying css</a></td>
+                    <td>basic application explanation</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div style="position: relative; text-align: left; padding: 20px;">
+        <a href="game.html" style="text-decoration: none; color: var(--secondary-color);">
+            <span style="font-size: 24px;">🎮</span> <!-- Cute game icon -->
+            Play a Game
+        </a>
+    </div>
+    <div>21/1491</div>
+</footer>
+
+</body>
+</html>
